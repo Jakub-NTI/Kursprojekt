@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    background-color: rgb(29, 29, 29);
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(9, 8, 9);
+}
+
+.top-content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75vw;
+    height: auto;
+    background-color: transparent;
+}
+
+.title-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vh;
+    height: 10vh;
+    background-color: grey;
+}
+
+.top-btn-container {
+    width: auto;
+    height: 40px;
+}
+
+.rnl-btn {
+    width: auto;
+    height: 40px;
+    background-color: yellow;
+}
+
+.create-btn {
+    width: auto;
+    height: 40px;
+    margin-left: 20px;
+    background-color: yellow;
+}
+
+.sheet-btn {
+    width: auto;
+    height: 40px;
+    margin-left: 20px;
+    background-color: yellow;
+}
