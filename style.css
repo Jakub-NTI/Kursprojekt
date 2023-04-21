@@ -1,5 +1,10 @@
 * {
     margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.25rem;
+}
+
+body {
     background-color: rgb(29, 29, 29);
 }
 
@@ -26,30 +31,58 @@
     align-items: center;
     width: 40vh;
     height: 10vh;
+    cursor: pointer;
     background-color: grey;
 }
 
 .top-btn-container {
-    width: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
     height: 40px;
+}
+
+p {
+    color: rgb(245, 245, 245);
+}
+
+a {
+    color: rgb(100, 100, 100);
+    border-radius: 7.5px;
+}
+
+a:hover {
+    color: rgb(245, 245, 245);
 }
 
 .rnl-btn {
+    display: flex;
+    align-items: center;
     width: auto;
     height: 40px;
-    background-color: yellow;
+    cursor: pointer;
 }
 
 .create-btn {
+    display: flex;
+    align-items: center;
     width: auto;
     height: 40px;
-    margin-left: 20px;
-    background-color: yellow;
+    cursor: pointer;
 }
 
 .sheet-btn {
+    display: flex;
+    align-items: center;
     width: auto;
     height: 40px;
-    margin-left: 20px;
-    background-color: yellow;
+    cursor: pointer;
+}
+
+.main {
+    margin-left: ;
+    margin-right: ; 
+    margin-top: ;
+    margin-bottom: ;
+    width: auto;
 }
