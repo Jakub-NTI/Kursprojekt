@@ -1,3 +1,4 @@
+/*general css*/
 * {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -112,6 +113,7 @@ a:hover {
     margin-top: 25px;
 }
 
+/*home.html*/
 .big-create-btn {
     align-self: center;
     margin-top: 25px;
@@ -129,4 +131,17 @@ a:hover {
 .big-create-btn:active {
     background-color: rgb(100, 160, 100);
 }
+
+/*rules.html*/
+.book-container {
+    margin-top: 25px;
+    width: auto;
+    height: auto;
+}
+
+.bookcover-img {
+    height: 250px;
+    width: 200px;
+}
+
 
