@@ -134,14 +134,16 @@ a:hover {
 
 /*rules.html*/
 .book-container {
+    display: flex;
     margin-top: 25px;
-    width: auto;
+    margin-left: 5vw;
     height: auto;
+    width: auto;
 }
 
 .bookcover-img {
-    height: 250px;
-    width: 200px;
+    height: 100px;
+    width: auto;
 }
 
 
