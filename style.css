@@ -47,9 +47,9 @@ button {
     justify-content: center;
     align-items: center;
     width: 20vh;
-    height: 10vh;
+    height: auto;
+    max-height: 10vh;
     cursor: pointer;
-    background-color: grey;
 }
 
 p {
@@ -66,6 +66,10 @@ h1 {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 25px;
+}
+
+u {
+    color: rgb(245, 245, 245);
 }
 
 a {
@@ -103,7 +107,7 @@ a:hover {
     margin-bottom: 12.5px;
     width: auto;
     height: auto;
-    min-height: 650px;
+    min-height: 590px;
     background-color: rgb(53, 53, 53);
     flex-direction: column;
 }
@@ -112,6 +116,7 @@ a:hover {
     color: transparent;
     margin-top: 25px;
 }
+
 
 /*home.html*/
 .big-create-btn {
@@ -132,18 +137,50 @@ a:hover {
     background-color: rgb(100, 160, 100);
 }
 
+
 /*rules.html*/
+.level {
+    width: 2.4rem;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 5px;
+    margin-left: 5vw;
+}
+
 .book-container {
     display: flex;
     margin-top: 25px;
     margin-left: 5vw;
+    margin-right: 5vw;
     height: auto;
     width: auto;
 }
 
 .bookcover-img {
-    height: 100px;
+    height: 150px;
     width: auto;
 }
 
+
+/*create.html*/
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    padding-left: 25px;
+    padding-top: 5px;
+    top: 10vh;
+    left: -100%;
+    width: 340px;
+    min-height: 90vh;
+    background: rgb(9, 8, 9);
+    border: rgb(29, 29, 29) solid;
+    border-right: transparent;
+    border-bottom: transparent;
+    transition: 0.3s;
+}
+
+.sidebar.active {
+    left: 0;
+}
 
