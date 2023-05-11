@@ -68,13 +68,21 @@ h1 {
     margin-top: 25px;
 }
 
+h2 {
+    color: rgb(245, 245, 245);
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
 u {
     color: rgb(245, 245, 245);
 }
 
 a {
     color: rgb(100, 100, 100);
-    border-radius: 7.5px;
+    font-size: 1rem;
     text-decoration: none;
 }
 
@@ -82,11 +90,19 @@ a:hover {
     color: rgb(245, 245, 245);
 }
 
+#indented {
+    margin-left: 7.5%;
+}
+
+#isbold {
+    font-weight: bold;
+}
+
 .top-function-container {
     display: flex;
     justify-content: space-between;
     margin-left: 10px;
-    width: 220px;
+    width: 180px;
     height: 40px;
 }
 
@@ -122,10 +138,10 @@ a:hover {
 .big-create-btn {
     align-self: center;
     margin-top: 25px;
-    width: 335px;
+    width: 300px;
     height: 60px;
     border-radius: 20px;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     padding-top: 12.5px;
     padding-bottom: 12.5px;
     padding-left: 20px;
@@ -163,12 +179,22 @@ a:hover {
 
 
 /*create.html*/
+.sections {
+    position: fixed;
+    top: 10vh;
+    left: 0;
+    height: auto;
+    width: 50px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+}
+
 .sidebar {
     display: flex;
     flex-direction: column;
     position: fixed;
     padding-left: 25px;
-    padding-top: 5px;
+    padding-top: 10px;
     top: 10vh;
     left: -100%;
     width: 340px;
@@ -178,6 +204,15 @@ a:hover {
     border-right: transparent;
     border-bottom: transparent;
     transition: 0.3s;
+}
+
+.close-sidebar {
+    position: fixed;
+    height: auto;
+    width: 50px;
+    margin-left: 290px;
+    margin-top: -5px;
+    cursor: pointer;
 }
 
 .sidebar.active {
