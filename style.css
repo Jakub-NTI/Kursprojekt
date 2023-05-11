@@ -90,11 +90,11 @@ a:hover {
     color: rgb(245, 245, 245);
 }
 
-#indented {
+.indented {
     margin-left: 7.5%;
 }
 
-#isbold {
+.isbold {
     font-weight: bold;
 }
 
@@ -158,6 +158,7 @@ a:hover {
 .level {
     width: 2.4rem;
     text-align: center;
+    background-color: rgb(53, 53, 53);
     font-size: 1rem;
     margin-top: 5px;
     margin-left: 5vw;
