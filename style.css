@@ -123,6 +123,7 @@ a:hover {
     margin-bottom: 12.5px;
     width: auto;
     height: auto;
+    min-height: 590px;
     background-color: rgb(53, 53, 53);
     flex-direction: column;
 }
@@ -219,3 +220,22 @@ a:hover {
     left: 0;
 }
 
+.sample-backgrounds-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+}
+
+.backgrounds {
+    height: 80px;
+    width: 320px;
+    margin-top: 5px;
+    overflow: auto;
+}
+
+.background-info {
+    height: typ 300 eller något;
+    width: 320px;
+
+}
