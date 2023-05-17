@@ -228,14 +228,28 @@ a:hover {
 }
 
 .backgrounds {
-    height: 80px;
+    height: 300px;
     width: 320px;
     margin-top: 5px;
+    margin-right: 7.5%;
+    margin-bottom: 10px;
     overflow: auto;
+    border: solid 2px rgb(245, 245, 245);
 }
 
 .background-info {
-    height: typ 300 eller något;
+    height: 300px;
     width: 320px;
+    margin-top: 5px;
+    margin-right: 7.5%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    overflow: auto;
+    border: solid 2px rgb(245, 245, 245);
+}
 
+.personality {
+    
 }
