@@ -56,29 +56,35 @@ p {
     color: rgb(245, 245, 245);
     font-size: 0.75rem;
     margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-right: 7.5%;
+}
+
+strong {
+    color: rgb(245, 245, 245);
+    font-size: 0.75rem;
 }
 
 input {
     margin-left: 5%;
-    margin-right: 5%;
 }
 
 h1 {
     color: rgb(245, 245, 245);
     margin-left: 5%;
-    margin-right: 5%;
     margin-top: 25px;
 }
 
 h2 {
     color: rgb(245, 245, 245);
     margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 10px;
     font-size: 1rem;
+}
+
+h3 {
+    color: rgb(245, 245, 245);
+    margin-left: 5%;
+    margin-top: 5px;
+    font-size: 0.9rem;
 }
 
 u {
@@ -208,6 +214,11 @@ a:hover {
     transition: 0.3s;
 }
 
+.sidebar h3, .sidebar p{
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
 .close-sidebar {
     position: fixed;
     height: auto;
@@ -257,6 +268,7 @@ textarea {
     width: 300px;
     height: 100px;
     padding-left: 20px;
+    padding-right: 20px;
     padding-top: 12px;
     margin-left: 5%;
     overflow: auto;
@@ -316,4 +328,27 @@ th {
     padding-bottom: 8px;
     text-align: left;
 }
+
+#modifierTable td:nth-child(3), #modifierTable td:nth-child(4), #modifierTable th:nth-child(3), #modifierTable th:nth-child(4) {
+    background-color: rgb(53, 53, 53);
+    border-top: transparent;
+    border-bottom: transparent;
+}
+
+#scoresTable td {
+    background-color: rgb(53, 53, 53);
+}
+
+.stat-input {
+    width: 2.4rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+#WhoIsYourCharacterHeader, #BackgroundHeader, #SampleBackgrounds, #WriteTraits, #WriteAppereance, #RaceHeader, #Races, #ClassHeader, #Classes, #Multiclassing, #Feats, #AbilityScores, #scoresTable {
+    scroll-margin-top: 67.5px;
+}
+
+
+/*sheet.html*/
 
