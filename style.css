@@ -63,6 +63,7 @@ p {
 
 input {
     margin-left: 5%;
+    margin-right: 5%;
 }
 
 h1 {
@@ -74,8 +75,8 @@ h1 {
 
 h2 {
     color: rgb(245, 245, 245);
-    margin-left: 7.5%;
-    margin-right: 7.5%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 10px;
     font-size: 1rem;
 }
@@ -96,6 +97,7 @@ a:hover {
 
 .indented {
     margin-left: 7.5%;
+    margin-right: 7.5%;
 }
 
 .isbold {
@@ -219,29 +221,29 @@ a:hover {
     left: 0;
 }
 
-.sample-backgrounds-container {
+.scrollbox-container {
     display: flex;
     flex-wrap: wrap;
-    width: auto;
+    width: 100%;
     height: auto;
-    background-color: slategray;
+    margin-left: 5%;
 }
 
-.backgrounds {
+.list-scrollbox {
     height: 300px;
     width: 320px;
     margin-top: 5px;
-    margin-right: 7.5%;
+    margin-right: 5%;
     margin-bottom: 10px;
     overflow: auto;
     border: solid 2px rgb(245, 245, 245);
 }
 
-.background-info {
+.info-scrollbox {
     height: 300px;
     width: 320px;
     margin-top: 5px;
-    margin-right: 7.5%;
+    margin-right: 5%;
     margin-bottom: 10px;
     display: flex;
     flex-wrap: wrap;
@@ -252,19 +254,66 @@ a:hover {
 
 textarea {
     font-size: 16px;
-    width: 320px;
+    width: 300px;
     height: 100px;
     padding-left: 20px;
     padding-top: 12px;
+    margin-left: 5%;
     overflow: auto;
     resize: none;
 }
 
 .trait-container {
-    margin-left: 7.5%;
+    margin-left: 5%;
 }
 
 .trait-container > * {
     margin-left: 0;
+}
+
+.sample-races-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    padding-left: 5%;
+}
+
+.sample-classes-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    padding-left: 5%;
+}
+
+table {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-collapse: collapse;
+    width: 320px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    margin-left: 5%;
+}
+
+td, th {
+    border-style: solid;
+    border-color: rgb(29, 29, 29);
+    border-width: 2px;
+    border-color: rgb(245, 245, 245);
+    font-size: 0.75rem;
+    color: rgb(245, 245, 245);
+    padding: 5px;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(29, 29, 29);
+}
+
+th {
+    background-color: rgb(29, 29, 29);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: left;
 }
 
