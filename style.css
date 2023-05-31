@@ -224,6 +224,7 @@ a:hover {
     flex-wrap: wrap;
     width: auto;
     height: auto;
+    background-color: slategray;
 }
 
 .backgrounds {
