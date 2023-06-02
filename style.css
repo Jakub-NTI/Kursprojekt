@@ -347,18 +347,13 @@ th {
 
 
 /*sheet.html*/
-
-
-
-
-
 .sheet-pdf-container {
     width: 90%;
-    height: 95%;
+    height: 97.5%;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 2.5%;
     margin-bottom: 2.5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .sheets-pdf {
@@ -382,4 +377,14 @@ th {
         width: 100vw;
         height: 100vh;
     }
+}
+
+#scoresSheetTable th:nth-child(1) {
+    border-right: rgb(29, 29, 29);
+    background-color: royalblue;
+}
+
+#scoresSheetTale th:nth-child(2) {
+    border-left: rgb(29, 29, 29);
+    background-color: rebeccapurple;
 }
