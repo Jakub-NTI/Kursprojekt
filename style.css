@@ -279,22 +279,22 @@ th {
     text-align: left;
 }
 
-#sampleBackgroundsList {
+.sampleList {
     margin: 0;
     width: 305px;
 }
 
-#sampleBackgroundsList tr:nth-child(odd) {
+.sampleList tr:nth-child(odd) {
     background-color: rgb(53, 53, 53);
 }
 
-#sampleBackgroundsList td {
+.sampleList td {
     border-width: 1px;
     padding: 1px;
     padding-left: 5px;
 }
 
-#sampleBackgroundsList td:hover {
+.sampleList td:hover {
     background-color: rgb(29, 29, 29);
     cursor: pointer;
 }
@@ -366,6 +366,17 @@ textarea {
 
 .info-table {
     width: 275px;
+}
+
+.info-div {
+    border: 1px rgb(245, 245, 245) solid;
+    width: 275px;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: rgb(29, 29, 29);
 }
 
 /*sheet.html*/
