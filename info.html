@@ -17,7 +17,7 @@
                     <a href="rules.html">Rules</a> 
                 </div>
                 <div class="top-function">
-                    <a href="create.html">Create</a>
+                    <a href="info.html">Info</a>
                 </div>
                 <div class="top-function">
                     <a href="sheet.html">Sheet</a>
@@ -118,21 +118,6 @@
                 <br> 
             </div>
         </div>
-        <br>
-        <div class="trait-container">
-            <p id="WriteTraits">Write your characters personality traits, ideals, bonds and flaws here:
-                <br> <br> Personality Traits:</p>
-            <textarea name="traits" id="traits"></textarea>
-            <p>Ideals:</p>
-            <textarea name="ideals" id="ideals"></textarea>
-            <p>Bonds:</p>
-            <textarea name="bonds" id="bonds"></textarea>
-            <p>Flaws:</p>
-            <textarea name="flaws" id="flaws"></textarea>
-            <br>
-        </div>
-        <p id="WriteAppereance">What is the appereance of your character?</p>
-        <textarea name="appereance" id="appereance"></textarea>
         <br>
         <h1 id="RaceHeader">Race</h1>
         <h3>Racial Traits</h3>
@@ -415,7 +400,7 @@
             <br><br> <strong>Pact Magic.</strong> If you have both the Spellcasting class feature and the Pact Magic class feature from the warlock class, you can use the spell slots you gain from the Pact Magic feature to cast spells you know or have prepared from classes with the Spellcasting class feature, and you can use the spell slots you gain from the Spellcasting class feature to cast warlock spells you know.
             <br><br> <strong>Multiclass Spellcaster</strong> <br>
         </p>
-        <table>
+        <table id="multiSpellcastTable">
             <tr>
                 <th>Level</th>
                 <th>1st</th>
@@ -755,53 +740,6 @@
                 <td>+10</td>
             </tr>
         </table>
-        <p>Write down your ability scores here:</p>
-        <table id="scoresTable">
-            <tr>
-                <th>Ability Score</th>
-                <th>Rolled Score</th>
-                <th>Race Bonus</th>
-                <th>Modifier</th>
-            </tr>
-            <tr>
-                <td>STR</td>
-                <td><input type="number" min="0" max="20" id="strRolled" class="stat-input"></td>
-                <td><input type="number" min="-5" max="5" id="strBonus" class="stat-input"></td>
-                <td>Java</td>
-            </tr>
-            <tr>
-                <td>DEX</td>
-                <td><input type="number" min="0" max="20" id="dexRolled" class="stat-input"></td>
-                <td><input type="number" min="-5" max="5" id="dexBonus" class="stat-input"></td>
-                <td>Java</td>
-            </tr>
-            <tr>
-                <td>CON</td>
-                <td><input type="number" min="0" max="20" id="conRolled" class="stat-input"></td>
-                <td><input type="number" min="-5" max="5" id="conBonus" class="stat-input"></td>
-                <td>Java</td>
-            </tr>
-            <tr>
-                <td>INT</td>
-                <td><input type="number" min="0" max="20" id="intRolled" class="stat-input"></td>
-                <td><input type="number" min="-5" max="5" id="intBonus" class="stat-input"></td>
-                <td>Java</td>
-            </tr>
-            <tr>
-                <td>WIS</td>
-                <td><input type="number" min="0" max="20" id="wisRolled" class="stat-input"></td>
-                <td><input type="number" min="-5" max="5" id="wisBonus" class="stat-input"></td>
-                <td>Java</td>
-            </tr>
-            <tr>
-                <td>CHA</td>
-                <td><input type="number" min="0" max="20" id="chaRolled" class="stat-input"></td>
-                <td><input type="number" min="-5" max="5" id="chaBonus" class="stat-input"></td>
-                <td>Java</td>
-            </tr>
-        </table>
-        <p>Many players find picking a name for their character to be the hardest part of character creation, so we left that step for you to fill in directly on your character sheet. Along with your equipment, proficiencies, and other features. :)</p>
-        <br>
     </div>
     <script src="script.js"></script>
 </body>
