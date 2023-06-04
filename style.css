@@ -162,7 +162,7 @@ a:hover {
 
 
 /*rules.html*/
-.level {
+#level {
     width: 2.4rem;
     text-align: center;
     background-color: rgb(53, 53, 53);
