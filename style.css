@@ -247,7 +247,56 @@ a:hover {
     margin-right: 5%;
     margin-bottom: 10px;
     overflow: auto;
-    border: solid 2px rgb(245, 245, 245);
+    border: solid 1px rgb(245, 245, 245);
+}
+
+table {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-collapse: collapse;
+    width: 320px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    margin-left: 5%;
+}
+
+td, th {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(245, 245, 245);
+    font-size: 0.75rem;
+    color: rgb(245, 245, 245);
+    padding: 5px;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(29, 29, 29);
+}
+
+th {
+    background-color: rgb(29, 29, 29);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: left;
+}
+
+#sampleBackgroundsList {
+    margin: 0;
+    width: 305px;
+}
+
+#sampleBackgroundsList tr:nth-child(odd) {
+    background-color: rgb(53, 53, 53);
+}
+
+#sampleBackgroundsList td {
+    border-width: 1px;
+    padding: 1px;
+    padding-left: 5px;
+}
+
+#sampleBackgroundsList td:hover {
+    background-color: rgb(29, 29, 29);
+    cursor: pointer;
 }
 
 .info-scrollbox {
@@ -299,36 +348,6 @@ textarea {
     padding-left: 5%;
 }
 
-table {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-collapse: collapse;
-    width: 320px;
-    margin-top: 5px;
-    margin-bottom: 25px;
-    margin-left: 5%;
-}
-
-td, th {
-    border-style: solid;
-    border-color: rgb(29, 29, 29);
-    border-width: 2px;
-    border-color: rgb(245, 245, 245);
-    font-size: 0.75rem;
-    color: rgb(245, 245, 245);
-    padding: 5px;
-}
-
-tr:nth-child(odd) {
-    background-color: rgb(29, 29, 29);
-}
-
-th {
-    background-color: rgb(29, 29, 29);
-    padding-top: 8px;
-    padding-bottom: 8px;
-    text-align: left;
-}
-
 #modifierTable td:nth-child(3), #modifierTable td:nth-child(4), #modifierTable th:nth-child(3), #modifierTable th:nth-child(4) {
     background-color: rgb(53, 53, 53);
     border-top: transparent;
@@ -345,6 +364,9 @@ th {
     scroll-margin-top: 67.5px;
 }
 
+.info-table {
+    width: 275px;
+}
 
 /*sheet.html*/
 .sheet-pdf-container {
@@ -379,12 +401,8 @@ th {
     }
 }
 
-#scoresSheetTable th:nth-child(1) {
-    border-right: rgb(29, 29, 29);
-    background-color: royalblue;
+#scoresSheetTable {
+    width: 150px;
+    text-align: center;
 }
 
-#scoresSheetTale th:nth-child(2) {
-    border-left: rgb(29, 29, 29);
-    background-color: rebeccapurple;
-}

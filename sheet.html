@@ -29,26 +29,71 @@
     <div class="top-background"></div>
     <div class="main">
         <h1>Character Information</h1>
-        <table id="basicInfo-sheet">
+        <table id="basicInfoSheetTable">
             <tr>
                 <th>Level</th>
                 <th>Class</th>
                 <th>Race</th>
             </tr>
             <tr>
-                <td id="level-cell"></td>
-                <td id="class-cell"></td>
-                <td id="race-cell"></td>
+                <td id="levelCell"></td>
+                <td id="classCell"></td>
+                <td id="raceCell"></td>
             </tr>
         </table>
         <table id="scoresSheetTable">
             <tr>
-                <th>Ability Scores</th>
-                <th></th>
+                <th>Ability</th>
+                <th>Score</th>
+                <th>Modifier</th>
             </tr>
             <tr>
                 <td>STR</td>
-                <td>1</td>
+                <td id="strScore"></td>
+                <td id="strModifier"></td>
+            </tr>
+            <tr>
+                <td>DEX</td>
+                <td id="dexScore"></td>
+                <td id="dexModifier"></td>
+            </tr>
+            <tr>
+                <td>CON</td>
+                <td id="conScore"></td>
+                <td id="conModifier"></td>
+            </tr>
+            <tr>
+                <td>INT</td>
+                <td id="intScore"></td>
+                <td id="intModifier"></td>
+            </tr>
+            <tr>
+                <td>WIS</td>
+                <td id="wisScore"></td>
+                <td id="wisModifier"></td>
+            </tr>
+            <tr>
+                <td>CHA</td>
+                <td id="chaScore"></td>
+                <td id="chaModifier"></td>
+            </tr>
+        </table>
+        <table id="traitsSheetTable">
+            <tr>
+                <th>Personality <br> Traits</th>
+                <th>Ideals</th>
+            </tr>
+            <tr>
+                <td id="personalityTraitsCell"></td>
+                <td id="idealsCell"></td>
+            </tr>
+            <tr>
+                <th>Bonds</th>
+                <th>Flaws</th>
+            </tr>
+            <tr>
+                <td id="bondsCell"></td>
+                <td id="flawsCell"></td>
             </tr>
         </table>
         <br>
