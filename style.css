@@ -379,6 +379,11 @@ textarea {
     background-color: rgb(29, 29, 29);
 }
 
+#sampleClasses td {
+    padding: 2px;
+    padding-left: 5px;
+}
+
 /*sheet.html*/
 .sheet-pdf-container {
     width: 90%;
